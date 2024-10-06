@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF -8"
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Nadya's Profolio</title>
+        <script src="index.js"></script>
+        <title>Nadya's Portfolio</title>
     </head>
 
     <body>
         <div>
-            <h1>Hello my name is Nadya</h1>
+            <h1>Hello, my name is Nadya</h1>
         </div>
         <div class="pages">
-            <button class="pagelinks" onclick="openPage(event, 'Aboutme')">About me</button>
+            <button class="pagelinks" onclick="openPage(event, 'AboutMe')">About me</button>
             <button class="pagelinks" onclick="openPage(event, 'Resume')">Resume</button>
-            <button class="pagelinks" onclick="openPage(event, 'Software Project')">Software Projects</button>
-            <button class="pagelinks" onclick="openPage(event, 'Get in touch')">Get in touch</button>
+            <button class="pagelinks" onclick="openPage(event, 'SoftwareProjects')">Software Projects</button>
+            <button class="pagelinks" onclick="openPage(event, 'GetInTouch')">Get in touch</button>
         </div>
-        <div id="About me" class="pagecontent">
+
+        <div id="AboutMe" class="pagecontent">
             <h3>About me</h3>
-            <p>Hello my name is nadya, I'm currently pursuing a degree in computer engineering. I'm very interested in gaming, and learning about embedded system design and network engineering.</p>
+            <p>Hello my name is Nadya. I'm currently pursuing a degree in computer engineering. I'm very interested in gaming, and learning about embedded system design and network engineering.</p>
         </div>
+
         <div id="Resume" class="pagecontent">
             <h3>My Resume</h3>
-            <a href="Users/nadyaaboudoulaye/Desktop/Profolio/profolio/Computer Engineering Student.pdf" target="_blank">View PDF</a>
+            <a href="resume.pdf" target="_blank">View PDF</a>
         </div>
-        <div id="Software Projects" class="pagecontent">
+
+        <div id="SoftwareProjects" class="pagecontent">
             <h3>Software Projects</h3>
         </div>
-        <div id="Get in touch" class="pagecontent">
-            <h3>Lets get in touch:)</h3>
-        </div>
-    <script src="Users/nadyaaboudoulaye/Desktop/Profolio/profolio/index.js"></script>
-    </body>
 
+        <div id="GetInTouch" class="pagecontent">
+            <h3>Let's get in touch :)</h3>
+        </div>
+    </body>
 </html>

@@ -1,3 +1,12 @@
+.pagecontent {
+    display: none;
+}
+
+.active {
+    background-color: #f1f1f1;
+}
+
+
 body{
     background-color: rgb(253, 188, 198);
 }
